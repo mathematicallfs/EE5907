@@ -1,6 +1,7 @@
 import numpy as np
 from scipy import io
 from tqdm import tqdm
+import matplotlib.pyplot as plt
 
 data = io.loadmat('spamData.mat')
 
@@ -94,7 +95,6 @@ def train_error(alpha):
     return N_error / ytrain.shape[0]
 
 
-import matplotlib.pyplot as plt
 alpha = np.arange(0,100.5,0.5)
 testerror = []
 trainerror = []
