@@ -1,5 +1,6 @@
 import numpy as np
 from scipy import io
+import matplotlib.pyplot as plt
 
 data = io.loadmat('spamData.mat')
 
@@ -58,7 +59,6 @@ def testerror(K_):
 
     return error / ytest.shape[0]
 
-import matplotlib.pyplot as plt
 
 xaxis = []
 train_error = []
