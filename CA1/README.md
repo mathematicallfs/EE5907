@@ -1,7 +1,7 @@
 Requirements
 ---------------
 
-Ensure `tqdm` and `scipy` are installed
+Ensure `tqdm`, `matplotlib` and `scipy` are installed
 
 
 
