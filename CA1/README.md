@@ -1,3 +1,12 @@
+Requirements
+---------------
+
+`tqdm` and `scipy` 
+
+
+
+
+
 To Run the Code
 ---------------
 
