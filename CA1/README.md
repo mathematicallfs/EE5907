@@ -1,7 +1,7 @@
 Requirements
 ---------------
 
-`tqdm` and `scipy` 
+Ensure `tqdm` and `scipy` are installed
 
 
 
