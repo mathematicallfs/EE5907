@@ -1,6 +1,7 @@
 import numpy as np
 from scipy import io
 from scipy.special import expit
+import matplotlib.pyplot as plt
 
 data = io.loadmat('spamData.mat')
 
@@ -58,8 +59,6 @@ def testerror(w_):
     return error / ytest.shape[0]
 
 # training 
-
-import matplotlib.pyplot as plt
 
 lam_1 = np.arange(1, 11)
 lam_2 = np.arange(15, 101, 5)
